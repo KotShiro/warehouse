@@ -1,0 +1,43 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    align-items: center;
+    justify-content: center;
+    font: 1em sans-serif;
+    background: linear-gradient(45deg, #d3ebca, #C5DDE8);
+}
+
+canvas {
+    display: none;
+}    
+
+h1 {
+    text-align: center;
+}
+
+.camera,
+.output,
+.control {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 15px 0;
+}
+
+.camera > * {
+    margin: 5px 0;
+}
+
+button, select {
+    background: rgba(62, 126, 81, 0.651);
+    border: 1px solid rgb(62, 126, 81);
+    padding: 10px 30px;
+    width: 100%;
+}
