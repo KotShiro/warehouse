@@ -4,13 +4,28 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>JS camera access</title>
-
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <h1>Test camera access. WebRTC</h1>
     <div class="camera">
         <video id="video">Video stream not available.</video>
         <button id="startbutton">Take photo</button>
+        <div class="control">
+            <p>Filter for stream</p>
+            <select name="filter" id="filter">
+                <option>not filter</option>
+                <option>blur</option>
+                <option>brightness</option>
+                <option>contrast</option>
+                <option>grayscale</option>
+                <option>hue-rotate</option>
+                <option>invert</option>
+                <option>opacity</option>
+                <option>saturate</option>
+                <option>sepia</option>
+            </select>
+        </div> 
     </div>
     <canvas id="canvas"></canvas>
     <div class="output">
