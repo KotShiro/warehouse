@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Js call app</title>
+    <!-- <script src="/peerjs.min.js"></script> -->
+    <script src="https://unpkg.com/peerjs@1.0.0/dist/peerjs.min.js"></script>
+
+</head>
+<body>
+    <header>
+        <div class="id">
+            <h3>My ID:</h3><span id="myid"></span>
+        </div>
+        <div class="control">
+            <input type="text" id="otherPeerId" placeholder="otherPeerId" value="">
+            <button class="btnCallToNode">Start</button>
+        </div>
+    </header>
+    <main>
+        <div id="callinfo"></div>
+        <video id="myVideo" muted="muted" width="400px" height="auto" ></video>
+        <video id="remVideo" width="400px" height="auto"></video>
+    </main>
+    <script src="/main.js"></script>
+</body>
+</html>

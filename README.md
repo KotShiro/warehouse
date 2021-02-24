@@ -2,6 +2,6 @@
 
 This is the Repository for developing test applications.
 
-https://KotShiro.github.io/warehous/[NameTestApp] - example.
+https://kotshiro.github.io/warehouse/[NameTestApp] - example.
 List of current applications:
-- ## []()
+- ## [camera access. WebRTC](https://kotshiro.github.io/warehouse/js-camera/)
